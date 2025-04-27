@@ -1,23 +1,28 @@
-Documentação do Projeto: Neon Horizon
-— Futuro Cyberpunk
-1. Visão Geral
+*Documentação do Projeto: Neon Horizon — Futuro Cyberpunk*
+
+*1. Visão Geral*
 Neon Horizon é um quiz interativo ambientado em um futuro distópico cyberpunk, onde
 megacorporações dominam o mundo e rebeldes lutam para derrubar o sistema. O usuário
 responde perguntas para descobrir qual personagem do universo ele representa.
-2. Universo Fictício
+
+*2. Universo Fictício*
 No ano 2177, megacorporações controlam todos os aspectos da vida humana. Cidades
 imensas, iluminadas por neon, escondem nas suas sombras hackers, mercenários e
 androides conscientes que desafiam o controle absoluto.
+
 3. Personagens
 Zero, o Hacker Fantasma
 Gênio da tecnologia, mestre das invasões cibernéticas. Atua nas sombras para derrubar as
 megacorporações.
+
 Blaze, o Mercenário de Aço
 Ex-soldado cibernético, especialista em combate físico e táticas de guerra, trabalha por
 dinheiro, mas com um código de honra.
+
 Nyx, a Androide Rebelde
 Criada para obedecer, Nyx desenvolveu consciência própria e lidera a revolução dos
 androides em busca de liberdade.
+
 4. Perguntas e Sistema de Pontuação
 Pergunta Opção 1 Opção 2 Opção 3
 1. Qual é seu maior
@@ -99,13 +104,15 @@ Concluir custe o que
 custar (3 Blaze)
 Integridade e
 protocolo (3 Nyx)
-5. Requisitos Técnicos
+
+*5. Requisitos Técnicos*
 ● Criar a interface em HTML, CSS e JavaScript.
 ● Usar estilo neon, futurista e dark para o tema cyberpunk.
 ● Implementar sistema de perguntas, respostas e pontuação.
 ● Mostrar o personagem final com descrição e imagem.
 ● Permitir reinício do quiz.
-6. Estrutura do Projeto
+
+*6. Estrutura do Projeto*
 ● index.html: estrutura do quiz.
 ● style.css: estilos visuais neon/cyberpunk.
 ● script.js: lógica e interatividade do quiz.
