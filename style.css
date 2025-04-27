@@ -1,0 +1,121 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #0f111a;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: #1c1f2a;
+    border-radius: 10px;
+    padding: 30px 40px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 20px #00f0ff88;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #00f0ff;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  
+  #question {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    min-height: 60px;
+  }
+  
+  #options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .option-btn {
+    background-color: #22263a;
+    border: 2px solid #00f0ff;
+    color: #00f0ff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .option-btn:hover {
+    background-color: #00f0ff;
+    color: #1c1f2a;
+  }
+  
+  .option-btn.selected {
+    background-color: #00c8ff;
+    color: #1c1f2a;
+    border-color: #00c8ff;
+  }
+  
+  #next-btn, #restart-btn {
+    background-color: #00f0ff;
+    color: #1c1f2a;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #next-btn:disabled {
+    background-color: #004f5a;
+    cursor: not-allowed;
+  }
+  
+  #next-btn:hover:not(:disabled), #restart-btn:hover {
+    background-color: #00c8ff;
+  }
+  
+  #result-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #result-name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #00f0ff;
+    margin-bottom: 10px;
+  }
+  
+  #result-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #a0eaff;
+  }
+  
+  #result-image {
+    max-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00f0ff88;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
